@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: rgb(167, 56, 0);
+}
+
+body {
+    border: 15px solid rgb(167, 56, 0); /* Isso cria uma "margem" vermelha */
+    box-sizing: border-box; /* Isso garante que a largura total inclua a borda */
+}
+
+html {
+    overflow-x: hidden;
+}
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header, footer {
+    background-color: #ff99009a;
+    padding-top: 16px;
+    color: #fff;
+}
+
+footer {
+    border-radius:10px;
+    padding: 40px;
+    background-color:  #f6ff005d;
+}
+
+header > .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 16px;
+}
+
+nav {
+    background-color: #b2a300d6;
+    padding: 16px 0;
+    display: none;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    margin-right: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav li a {
+    color: #000000;
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a {
+    transition: color 0.5s ease;
+}
+a:hover {
+    color: rgb(138, 0, 0);
+}
+
+.menu-hamburguer{
+    width: 32px;
+    cursor: pointer;
+}
+
+.menu-hamburguer span{
+    height: 2px;
+    width: 100%;
+    background-color: #f6ff00c7;
+    display: block;
+    margin-bottom: 4px;
+    transition: background-color 0.5s ease;
+}
+
+span:hover{
+    background-color: red;
+}
+
+h1{
+    color: rgba(0, 0, 0, 0.758);
+    transition: color 1s ease;
+    cursor: pointer;
+}
+
+h1:hover {
+    color: orangered;
+}
+
+.container-flex {
+    display: flex;
+}
+
+#sobre-a-loja img{
+    max-width: 400px;
+    margin-right: 24px;
+}
+
+section {
+    padding: 48px 0;
+}
+section h2{
+    margin-bottom: 16px;
+}
+
+.lista-veiculos {
+    flex-wrap: wrap;
+}
+
+.lista-veiculos li {
+    list-style: none;
+    max-width: 30%;
+    margin-bottom: 24px;
+}
+
+.lista-veiculos img {
+    max-width: 100%;
+}
+
+.lista-veiculos li h3{
+    margin :16px 0;
+}
+
+.item-central {
+    margin: 0 5%;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    transition: bakcground-color 0.3s ease;
+    background-color: #079f23;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: transform 0.8s ease;
+}
+button:hover {
+    transform: scale(1.1);
+    background-color: green;
+}
+
+.price {
+    margin: 16px;
+    display: block;
+}
+
+.price del{
+    color: #ccc;
+    font-size: 14px;
+}
+
+img {
+    border-radius: 8px;
+}
+
+#italic {
+    color: rgba(0, 0, 0, 0.429);
+    transition: color 1s ease;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 10px;
+    background-color: rgb(187, 0, 0);
+    border-radius: 4px;
+}
+#italic:hover {
+    color: rgba(255, 0, 0, 0.925);
+    background-color: rgba(255, 0, 0, 0.4);
+}
+
+.margem-espacial {
+    background-image: url('https://www.photopublicdomain.com/wp-content/uploads/2017/04/Red-frame-border.jpg'); /* Substitua pelo caminho para sua imagem de espaço sideral */
+    padding: 20px;
+}
+
+.conteudo {
+    background-color: #fff; /* Isso cria um fundo branco para o conteúdo */
+    width: 100%; /* Isso garante que o conteúdo preencha toda a largura disponível */
+    height: 100%; /* Isso garante que o conteúdo preencha toda a altura disponível */
+}
+.form-campo {
+    margin-bottom: 16px;
+}
+
+.form-campo label {
+    font-weight: bold;
+    display: block;
+}
+
+.form-campo input,
+.form-campo textarea {
+    width: 100%;
+    display: block;
+    padding: 8px;
+    border-radius: 9px;
+    background-color: #f6ff005d;
+}
+
+.form-campo textarea {
+    resize: none;
+    height: 120px;
+}
+
+form {
+    max-width: 360px;
+    padding: 20px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+form:hover {
+    background-color: rgba(226, 251, 0, 0.445);
+    border-radius: 8px;
+}
+
+form button {
+    max-width: 120px;
+}
+
+#animated-text {
+     position: relative;
+  display: inline-block;
+  width: 100%;
+  line-height: 1.5;
+}
